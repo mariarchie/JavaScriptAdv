@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы о продуктах</title>
+</head>
+
+<body>
+    <h2>Добавление отзыва</h2>
+    <label for="product-name">Продукт:</label>
+    <input type="text" id="product-name">
+    <br>
+    <label for="review-text">Отзыв:</label>
+    <textarea id="review-text"></textarea>
+    <br>
+    <button onclick="addReviewToLocalStorage()">Добавить отзыв</button>
+
+    <h2>Просмотр отзывов</h2>
+    <div id="reviews-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
